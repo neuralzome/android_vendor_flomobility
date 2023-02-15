@@ -1,3 +1,10 @@
+#
+# Copyright (C) 2023 Flo Mobility Pvt Ltd.
+# All Rights Reserved.
+# Confidential and Proprietary - Flo Mobility Pvt Ltd.
+#
+
+# Build anx-headless app as prebuilt.
 PRODUCT_PACKAGES += \
     ANXAppPrebuilt
 

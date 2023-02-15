@@ -4,6 +4,7 @@
 # Confidential and Proprietary - Flo Mobility Pvt Ltd.
 #
 
+# Set vendor path for use in other configs.
 FLO_PATH := vendor/flomobility
 
 # Packages
