@@ -11,4 +11,5 @@ PRODUCT_PACKAGES += \
 # We require some priv-app permissions, log for now
 # TODO: Fix this, generate privapp-permissions-flo.xml
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.control_privapp_permissions=log
+    ro.control_privapp_permissions=log \
+    org.flomobility.anx_devel=false
