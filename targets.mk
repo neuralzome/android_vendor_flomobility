@@ -8,13 +8,13 @@
 FLO_PATH := vendor/flomobility
 
 # Packages
-$(call inherit-product, $(FLO_PATH)/configs/packages.mk)
+include $(FLO_PATH)/configs/packages.mk
 
 # Enable root
 WITH_SU := true
 
 # Properties
-$(call inherit-product, $(FLO_PATH)/configs/properties.mk)
+include $(FLO_PATH)/configs/properties.mk
 
 # Bootanimation
 PRODUCT_COPY_FILES += \
