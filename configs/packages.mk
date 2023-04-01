@@ -5,8 +5,8 @@
 #
 
 # Build anx-headless app as prebuilt.
-PRODUCT_PACKAGES += \
-    ANXAppPrebuilt
+# PRODUCT_PACKAGES += \
+#     ANXAppPrebuilt
 
 # We require some priv-app permissions, log for now
 # TODO: Fix this, generate privapp-permissions-flo.xml
